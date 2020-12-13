@@ -71,3 +71,25 @@ body {
   .bootstrap-link:hover {
     font-size: larger;
   }
+
+  .btn-subscribe {
+    margin-left: 20px;
+  }
+
+@media (max-width: 576px) {
+  .btn-subscribe{
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-subscribe{
+    margin-top: 25px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
